@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!—The Sales Order example --> 
+<order type="ZQ">
+  <number>5072341</number>
+  <orderDate>20050801</orderDate>
+  <soldTo>14432</soldTo>
+  <shipTo>14476</shipTo>
+  <delDate>20050815</delDate>
+  <poNumber>90-6627-3</poNumber>
+  <line id="010">
+    <material>GI-72388</material>
+    <uom>ea</uom>
+    <unitPrice>765.00</unitPrice>
+    <qty>35</qty>
+  </line> 
+  <line id="020">
+    <material>GI-34490</material>
+    <uom>ea</uom>
+    <unitPrice>200.00</unitPrice>
+    <qty>76</qty>
+  </line>
+  <line id="030">
+    <material>GI-982254</material>
+    <uom>ea</uom>
+    <unitPrice>25.00</unitPrice>
+    <qty>12</qty>
+  </line>
+  <comment>Deliver at bay 3</comment>
+</order>

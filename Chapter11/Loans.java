@@ -6,12 +6,12 @@ private double periods;
 private double interest;
 private double repayment;
 
-// This is the Constructor – more about it later
-    public Loans(double principal, double periods, double int)
+// This is the Constructor â€“ more about it later
+    public Loans(double principal, double periods, double interest_rate)
     {
         this.principal = principal;
         this.periods = periods;
-        interest = int;
+        interest = interest_rate;
         calcLoan();
     }
 
